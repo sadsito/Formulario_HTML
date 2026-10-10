@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+        <title>Registro de la persona usuaria</title>
+    </head>
+
+    <body>
+        <h1 id="titulo">Registro de la persona usuaria</h1>
+
+        <form>
+            <div class="contenedor">
+            <div class="grupo-campos">
+                
+            <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="campo">
+            <label for="apellidoPaterno">Apellido paterno:</label>
+            <input type="text" id="apellidoPaterno" name="apellidoPaterno" required>
+            </div>
+
+            <div class="campo">
+            <label for="apellidoMaterno">Apellido materno:</label>
+            <input type="text" id="apellidoMaterno" name="apellidoMaterno" required>
+            </div>
+
+            <div class="campo">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div class="campo">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+
+            <div class="campo">
+            <label for="descripcion">Descripción sobre mí:</label>
+            <textarea id="descripcion" name="descripcion"></textarea>
+            </div>
+
+            </div>
+
+            <div>
+                <p>selecciona tus intereses:</p>
+
+                <div class="opcion-intereses">
+                <input type="checkbox" id="tecnologia" name="intereses" value="Tecnologia">
+                <label for="tecnologia">Tecnología</label>
+            </div>
+                
+            <div class="opcion-intereses">
+                <input type="checkbox" id="arte" name="intereses" value="Arte">
+                <label for="arte">Arte</label>
+            </div>
+
+            <div class="opcion-intereses">
+                <input type="checkbox" id="deporte" name="intereses" value="Deporte">
+                <label for="deporte">Deporte</label>
+            </div>
+
+            <div class="opcion-intereses">
+                <input type="checkbox" id="videojuegos" name="intereses" value="Videojuegos">
+                <label for="videojuegos">Videojuegos</label>
+            </div>
+
+            </div>
+
+            <div class="grupo-boton">
+            <button type="submit" id="botonRegistro">Registrar</button>
+            </div>
+
+        </form>
+        </div>
+
+    </body>
+</html>
